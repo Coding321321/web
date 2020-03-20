@@ -5,6 +5,7 @@ const handledata = data => {
         document.getElementById("content").remove();
     }
 
+    
     let box = document.createElement("div");
     box.id = "content";
     document.body.appendChild(box);
